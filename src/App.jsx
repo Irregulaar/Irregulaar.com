@@ -19,7 +19,7 @@ function App() {
    name: "Profile Page",
    url: "https://github.com/Irregulaar/Irregulaar.com",
    img: "/projects/profilepage.png",
-   description: "A page to showcase my skills and projects. A page to showcase my skills and projects. A page to showcase my skills and projects.",
+   description: "A page to showcase my skills and projects.",
   },
  };
 
@@ -104,7 +104,7 @@ function App() {
 
        <div className="group flex flex-row justify-center items-center gap-2">
         <img src="/twitter.png" className="h-full w-6"></img>
-        <a href="https://github.com/Irregulaar" target="_blank" rel="noopener noreferrer" className="hover:underline cursor-pointer">
+        <a href="https://x.com/Irregulaaaar" target="_blank" rel="noopener noreferrer" className="hover:underline cursor-pointer">
          Twitter
         </a>
         <div className="opacity-0 absolute bg-[#3a3a3a] rounded p-1 text-[10px] group-hover:opacity-100 transition-all -translate-y-10">
