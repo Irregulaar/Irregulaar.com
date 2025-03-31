@@ -25,18 +25,26 @@ function App() {
 
  return (
   <div className="grid grid-cols-2 absolute h-screen w-full text-white">
-   <div className="h-screen w-[50%] fixed col-start-1 col-end-1 self-end hidden md:flex">
-    <div className="absolute flex justify-center bg-[#222222] top-4 w-20 h-6 rounded-tr-lg rounded-br-lg">
+   <div className="group h-screen w-[50%] fixed justify-center items-center col-start-1 col-end-1 self-end hidden md:flex">
+    <div className="fixed top-3 left-0 bg-[#222222] w-20 h-6 rounded-tr-lg rounded-br-lg flex justify-center items-center">
      <a href="https://github.com/Irregulaar/Irregulaar.com" target="_blank" rel="noopener noreferrer" className="hover:underline cursor-pointer">
       Source
      </a>
     </div>
     <img src="/pfp.png" className="h-fit self-end" alt="Foto de perfil de la pagina"></img>
+    <div className="opacity-0 absolute bg-[#3a3a3a] rounded p-1 text-[8px] w-70 top-10 group-hover:opacity-100 transition-all">
+     <p className="text-start">
+      “Sí, mi laúd tenía defectos, pero ¿qué importa eso cuando se trata de asuntos del corazón? Amamos lo que amamos. La razón no entra en juego. En
+      muchos aspectos, el amor más insensato es el amor más verdadero. Cualquiera puede amar algo por algún motivo. Eso es tan fácil como meterse un
+      penique en el bolsillo. Pero amar algo a pesar de algo es otra cosa. Conocer los defectos y amarlos también. Eso es inusual, puro y perfecto." ―
+      Patrick Rothfuss
+     </p>
+    </div>
    </div>
 
    <div className="flex flex-col justify-start items-center col-span-2 md:col-start-2 mt-20">
     <header className="flex flex-col justify-start items-center">
-     <h1 className="font-bold tracking-wider text-5xl text-center">I'M IRREGULAAR</h1>
+     <h1 className="font-bold tracking-wider text-5xl w-[90%] text-center">I'M IRREGULAAR</h1>
      <h1 className="font-light text-3xl mt-2 w-[90%] text-center">A 20 year old guy who uses the internet a lot and likes programming.</h1>
     </header>
 
